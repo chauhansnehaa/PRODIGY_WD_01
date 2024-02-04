@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap'); 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    background-color: #272829;
+}
+
+.nav-bar{
+    background-color: #492E87;
+    height: 40px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    padding: 20px 0px;
+
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #000000;
+}   
+
+a:hover{
+    color: #ffffff;}
+
+ul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+li{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-page{
+    display: flex;
+}
+
+.main-page h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: #492E87;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.main-page p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+.main-page-left{
+    width: 60%;
+   padding: 80px 70px;
+}
+ .main-page-right{
+    width: 50%;
+}
+
+.main-page-right img{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+
+}
+
+.main-page button{
+    background-color: #492E87;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #ffffff;
+    margin-top: 20px;
+    cursor: pointer;
+    
+}
+
+.second-page{
+
+    margin-top: 50px;
+    background-color: #FFFBF5;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 900px;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+
+}
+
+.card-1, .card-2, .card-3, .card-4, .card-5, .card-6{
+    width: 20%;
+    height: 40%;
+   color: #000000;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin: 0px 30px;
+
+}
+
+.card-1 h2, .card-2 h2, .card-3 h2, .card-4 h2, .card-5 h2, .card-6 h2{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+
+
+
+.card-1:hover, .card-2:hover, .card-3:hover, .card-4:hover, .card-5:hover, .card-6:hover{
+    background-color: #272829;
+    color: #ffffff;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.cards button{
+    background-color: #492E87;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 40px;
+    cursor: pointer;
+    
+}
+
+.about-page{
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.about-page h1{
+    margin: 30px 0px;  
+    font-size: 60px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+}
+
+.about-page p{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 30px 0px;  
+    color: #ffffff;
+}
+
+.contact-page{
+   background-color: #FFFBF5;
+   padding: 50px 30px;
+
+}
+
+.contact-page h1{ 
+    font-size: 60px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.contact-page-wrap{
+    display: flex;
+}
+
+.contact-right{
+    width: 50%; 
+}
+
+.contact-left{
+    width: 50%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 90px;
+    padding-top: 40px;
+}
+
+.contact-page img{
+    width: 100%;
+    height: 100%;
+}
